@@ -142,7 +142,7 @@ class WizardBankTest < Minitest::Test
     skip
   end
 
-  # Hard Mode:
+  # REALLY Hard Mode:
   # Make it so a person can have accounts with multiple banks and are able
   # to transfer money from one to the other and vice versa.
   # Remember to write happy and sad path tests.
@@ -150,4 +150,9 @@ class WizardBankTest < Minitest::Test
   # People shouldn't try to transfer more money than they have, etc.
   # Hint: Consider using hashes to store what banks a person has accounts at
   # and their respective balances.
+  #
+  # Be aware that if you decide to start using a hash to store banks and
+  # balances, it will cause you to rewrite a lot of code and some previous
+  # tests WILL break. Rewrite tests to cover and take into account this
+  # functionality.
 end
