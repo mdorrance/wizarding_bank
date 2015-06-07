@@ -2,7 +2,7 @@ require "minitest/autorun"
 require "minitest/pride"
 # Under this line, I want you to require the file that you will be writing
 # all of your code in using either require or require_relative.
-# The file should reside in the lib directory. Figure out how how file
+# The file should reside in the lib directory. Figure out how file
 # paths work and the difference between the two.
 
 
@@ -78,7 +78,7 @@ class WizardBankTest < Minitest::Test
 
   def test_a_bank_stores_persons_that_have_accounts_with_it_with_a_name
     skip
-    # Write a test that checks thank a person can open an account and has
+    # Write a test that checks that a person can open an account and has
     # access to its attributes.
   end
 
